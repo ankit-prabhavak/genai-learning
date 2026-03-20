@@ -1,6 +1,6 @@
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+import nltk # pyright: ignore[reportMissingImports]
+from nltk.corpus import stopwords # pyright: ignore[reportMissingImports]
+from nltk.tokenize import word_tokenize # pyright: ignore[reportMissingImports]
 # import pandas as pd
 
 # Get name of all the languages

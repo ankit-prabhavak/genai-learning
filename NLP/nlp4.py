@@ -2,7 +2,7 @@
 name = "Dr. Manmohan Singh"
 # print(name.split())
 
-from nltk.tokenize import WhitespaceTokenizer, word_tokenize, sent_tokenize, regexp_tokenize, TreebankWordTokenizer
+from nltk.tokenize import WhitespaceTokenizer, word_tokenize, sent_tokenize, regexp_tokenize, TreebankWordTokenizer # pyright: ignore[reportMissingImports]
 text = "NLTK is a powerful library. It is used for NLP tasks."
 tokenizer = WhitespaceTokenizer()
 tokens = tokenizer.tokenize(text)
@@ -46,6 +46,6 @@ tokens = tokenizer.tokenize(micky)
 
 # print(tokens)
 
-from nltk.util import ngrams
+from nltk.util import ngrams # pyright: ignore[reportMissingImports]
 print(ngrams(tokens, 1))
 
